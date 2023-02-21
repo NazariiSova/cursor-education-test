@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ornamental_Alphabet_-_16th_Century.svg/2560px-Ornamental_Alphabet_-_16th_Century.svg.png);
+  background-repeat: no-repeat;
+  background-attachment: 100%;
+  background-size: cover;
+
+}
+
+
+ .container {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    justify-content: space-between;
+
+  }
+
+
+button {
+    border: 5px black solid;
+    border-radius: 5px;
+    color: black;
+    padding: auto;
+    background-color: rgba(148, 148, 148, 0.438);
+    font-size: 400%;
+    transition: ease-in 0.2s;
+
+  }
+  
+ 
+  button:hover {
+    background-color:black;
+    color: white;
+    border: 5px black solid;
+    
+  }
+
+  .active {
+    background-color:rgba(0, 0, 0, 0.61);
+    color: rgba(255, 255, 255, 0.664);
+    border: 5px rgba(0, 0, 0, 0.267) solid;
+  }
+
